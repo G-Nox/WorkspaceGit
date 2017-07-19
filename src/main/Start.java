@@ -9,6 +9,7 @@ package main;
  */
 public class Start {
 
+	private static Normal nm;
 	/**
 	 * Program start
 	 * 
@@ -17,7 +18,6 @@ public class Start {
 	 */
 	public static void main(String[] args) {
 		init();
-
 	}
 
 	/**
@@ -28,6 +28,6 @@ public class Start {
 	 * 
 	 */
 	private static void init() {
-		
+		nm = new Normal();
 	}
 }
