@@ -1,8 +1,7 @@
 package main;
 
 /**
- * ((Test)
- * 
+ * Start Klasse zum ausführen des Codes
  * @author Ludwig Kaftan
  * @version Alpha 1.0
  * 
