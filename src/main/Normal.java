@@ -1,7 +1,6 @@
 package main;
 
 import controller.GuiController;
-import view.Gui;
 
 /**
  * Klasse die alles für den normalen Programmstart beinhaltet.
@@ -9,8 +8,6 @@ import view.Gui;
  * @version Alpha 1.0
  */
 public class Normal {
-
-	public Gui oberflaeche;
 	public GuiController guiCon;
 	
 	/**
@@ -18,10 +15,8 @@ public class Normal {
 	 * 2. Controller wird erstellt
 	 */
 public Normal(){
-	Gui oberflaeche = new Gui();
-	oberflaeche.setVisible(true);
-	
 	guiCon = new GuiController();
+	guiCon.startGui();
 	
 	}
 }
